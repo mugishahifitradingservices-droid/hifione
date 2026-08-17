@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+  --color-hifi-blue: #1848A0;
+  --color-hifi-blue-dark: #003880;
+  --color-hifi-blue-light: #0070C0;
+  --color-hifi-orange: #F88020;
+  --color-hifi-magenta: #F00090;
+  --color-hifi-cyan: #0088D0;
+}
+
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+
+  html.dark {
+    color-scheme: dark;
+  }
+
+  body {
+    @apply transition-colors duration-200;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  html.dark body {
+    @apply bg-[#0B0B0E] text-gray-100;
+  }
+
+  html.light body {
+    @apply bg-slate-50 text-slate-900;
+  }
+}
+
+

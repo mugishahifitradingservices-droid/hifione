@@ -1,0 +1,16 @@
+{
+  "short_name": "HIFI ONE",
+  "name": "HIFI ONE - Field Operations Portal",
+  "icons": [
+    {
+      "src": "/logo.jpg",
+      "type": "image/jpeg",
+      "sizes": "192x192 512x512"
+    }
+  ],
+  "start_url": "/field/mode",
+  "background_color": "#0B0B0E",
+  "theme_color": "#1848A0",
+  "display": "standalone",
+  "orientation": "portrait"
+}
